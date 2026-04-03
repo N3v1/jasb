@@ -1,0 +1,23 @@
+jasb bootloader
+===============
+
+A minimal experimental bootloader written from scratch to learn how bootloaders work and how they load a kernel.
+
+Purpose
+-------
+- Learn low-level system & operating system programming
+- Practice x86_64 Assembly and c interop
+
+Project Structure
+-----------------
+boot/     -> bootloader code
+lib/      -> helpers
+kernel/   -> test kernel
+
+References
+----------
+- SysLinux <https://github.com/geneC/syslinux/tree/master>
+- Limine Bootloader <https://github.com/Limine-Bootloader/Limine>
+- Linux Kernel <https://www.kernel.org/doc/Documentation/x86/boot.rst>
+- OSDev Wiki <https://wiki.osdev.org/> 
+
